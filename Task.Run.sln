@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task.Common", "Task.Common\Task.Common.csproj", "{1319AB62-F00C-466C-A50F-A861F4D9CC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDemo1", "TaskDemo1\TaskDemo1.csproj", "{08FBF202-A705-4CDE-B4B3-505854DC2568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagBookBeginTask", "TagBookBeginTask\TagBookBeginTask.csproj", "{C0AB6B5A-77ED-4ADE-B715-3CD4A7FF2746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagBookEndTask", "TagBookEndTask\TagBookEndTask.csproj", "{48781A1C-1F7F-426F-8075-73AFDF509363}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskRun", "TaskRun", "{0E3D7100-937A-4608-94DA-E6BCEA8B9D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunTest", "TaskRunTest\TaskRunTest.csproj", "{571AFBCB-8D8A-4A62-992F-4771B897370E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskHost", "TaskHost\TaskHost.csproj", "{B26A3F4B-19E8-4948-A16C-EA253F336154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagBookTask", "TagBookTask\TagBookTask.csproj", "{E511DA61-2391-40D8-8B71-9C68983C1820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1319AB62-F00C-466C-A50F-A861F4D9CC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1319AB62-F00C-466C-A50F-A861F4D9CC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1319AB62-F00C-466C-A50F-A861F4D9CC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1319AB62-F00C-466C-A50F-A861F4D9CC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FBF202-A705-4CDE-B4B3-505854DC2568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FBF202-A705-4CDE-B4B3-505854DC2568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FBF202-A705-4CDE-B4B3-505854DC2568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FBF202-A705-4CDE-B4B3-505854DC2568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AB6B5A-77ED-4ADE-B715-3CD4A7FF2746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AB6B5A-77ED-4ADE-B715-3CD4A7FF2746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AB6B5A-77ED-4ADE-B715-3CD4A7FF2746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AB6B5A-77ED-4ADE-B715-3CD4A7FF2746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48781A1C-1F7F-426F-8075-73AFDF509363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48781A1C-1F7F-426F-8075-73AFDF509363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48781A1C-1F7F-426F-8075-73AFDF509363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48781A1C-1F7F-426F-8075-73AFDF509363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571AFBCB-8D8A-4A62-992F-4771B897370E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571AFBCB-8D8A-4A62-992F-4771B897370E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571AFBCB-8D8A-4A62-992F-4771B897370E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571AFBCB-8D8A-4A62-992F-4771B897370E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26A3F4B-19E8-4948-A16C-EA253F336154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26A3F4B-19E8-4948-A16C-EA253F336154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26A3F4B-19E8-4948-A16C-EA253F336154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26A3F4B-19E8-4948-A16C-EA253F336154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E511DA61-2391-40D8-8B71-9C68983C1820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E511DA61-2391-40D8-8B71-9C68983C1820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E511DA61-2391-40D8-8B71-9C68983C1820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E511DA61-2391-40D8-8B71-9C68983C1820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0AB6B5A-77ED-4ADE-B715-3CD4A7FF2746} = {0E3D7100-937A-4608-94DA-E6BCEA8B9D0B}
+		{48781A1C-1F7F-426F-8075-73AFDF509363} = {0E3D7100-937A-4608-94DA-E6BCEA8B9D0B}
+		{08FBF202-A705-4CDE-B4B3-505854DC2568} = {0E3D7100-937A-4608-94DA-E6BCEA8B9D0B}
+		{E511DA61-2391-40D8-8B71-9C68983C1820} = {0E3D7100-937A-4608-94DA-E6BCEA8B9D0B}
+	EndGlobalSection
+EndGlobal
